@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+<title id="title">Dashboard de análise de dados</title>
+<desc id="desc">Painel escuro com indicadores, gráfico de barras, gráfico de linha e distribuição de categorias.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1726"/><stop offset="1" stop-color="#102943"/></linearGradient>
+ <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#45b7ff"/><stop offset="1" stop-color="#8a72ff"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="18" flood-opacity=".28"/></filter>
+</defs>
+<rect width="900" height="620" rx="34" fill="url(#bg)"/>
+<circle cx="760" cy="80" r="170" fill="#3b82f6" opacity=".07"/>
+<circle cx="110" cy="540" r="180" fill="#8b5cf6" opacity=".05"/>
+<g font-family="Arial, sans-serif">
+ <text x="58" y="70" fill="#8ecbff" font-size="16" letter-spacing="5">DATA ANALYTICS</text>
+ <text x="58" y="108" fill="#f5f8ff" font-size="30" font-weight="700">Análise de desempenho</text>
+ <text x="58" y="136" fill="#91a5bb" font-size="15">Dados → indicadores → decisões</text>
+ <g filter="url(#shadow)">
+  <rect x="58" y="166" width="245" height="105" rx="18" fill="#13253b" stroke="#294663"/>
+  <rect x="327" y="166" width="245" height="105" rx="18" fill="#13253b" stroke="#294663"/>
+  <rect x="596" y="166" width="246" height="105" rx="18" fill="#13253b" stroke="#294663"/>
+ </g>
+ <g fill="#8ea5bc" font-size="14"><text x="82" y="198">Vendas totais</text><text x="351" y="198">Clientes ativos</text><text x="620" y="198">Margem média</text></g>
+ <g fill="#f5f8ff" font-size="27" font-weight="700"><text x="82" y="236">R$ 2,8M</text><text x="351" y="236">1.482</text><text x="620" y="236">12,6%</text></g>
+ <g fill="#56d6a0" font-size="13"><text x="82" y="256">▲ 12,5%</text><text x="351" y="256">▲ 18,3%</text><text x="620" y="256">▲ 4,1%</text></g>
+ <rect x="58" y="296" width="510" height="270" rx="20" fill="#0e1d30" stroke="#294663"/>
+ <text x="82" y="330" fill="#dbe8f5" font-size="17" font-weight="700">Evolução de vendas</text>
+ <g stroke="#294663" stroke-width="1"><line x1="82" y1="500" x2="540" y2="500"/><line x1="82" y1="445" x2="540" y2="445"/><line x1="82" y1="390" x2="540" y2="390"/><line x1="82" y1="350" x2="82" y2="500"/></g>
+ <polyline points="92,478 150,460 210,470 270,425 330,440 390,395 450,412 525,360" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+ <g fill="#7ac7ff"><circle cx="92" cy="478" r="5"/><circle cx="150" cy="460" r="5"/><circle cx="210" cy="470" r="5"/><circle cx="270" cy="425" r="5"/><circle cx="330" cy="440" r="5"/><circle cx="390" cy="395" r="5"/><circle cx="450" cy="412" r="5"/><circle cx="525" cy="360" r="5"/></g>
+ <g fill="#738ba4" font-size="11"><text x="88" y="525">Jan</text><text x="148" y="525">Fev</text><text x="208" y="525">Mar</text><text x="268" y="525">Abr</text><text x="328" y="525">Mai</text><text x="388" y="525">Jun</text><text x="448" y="525">Jul</text><text x="510" y="525">Ago</text></g>
+ <rect x="592" y="296" width="250" height="270" rx="20" fill="#0e1d30" stroke="#294663"/>
+ <text x="618" y="330" fill="#dbe8f5" font-size="17" font-weight="700">Mix por categoria</text>
+ <g transform="translate(718 425) rotate(-90)"><circle r="72" fill="none" stroke="#1f3650" stroke-width="25"/><circle r="72" fill="none" stroke="#55b8ff" stroke-width="25" stroke-dasharray="210 452"/><circle r="72" fill="none" stroke="#8273ff" stroke-width="25" stroke-dasharray="125 452" stroke-dashoffset="-210"/><circle r="72" fill="none" stroke="#5ed6b0" stroke-width="25" stroke-dasharray="78 452" stroke-dashoffset="-335"/></g>
+ <g font-size="12"><circle cx="618" cy="520" r="5" fill="#55b8ff"/><text x="630" y="524" fill="#9db1c5">Produto A</text><circle cx="700" cy="520" r="5" fill="#8273ff"/><text x="712" y="524" fill="#9db1c5">Produto B</text><circle cx="618" cy="544" r="5" fill="#5ed6b0"/><text x="630" y="548" fill="#9db1c5">Produto C</text></g>
+</g>
+</svg>
